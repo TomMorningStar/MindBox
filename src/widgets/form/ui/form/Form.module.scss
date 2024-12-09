@@ -1,0 +1,21 @@
+.form {
+	display: flex;
+	align-items: center;
+
+	.input {
+		width: 100%;
+		padding: 0 10px;
+		height: 50px;
+		outline: none;
+		border: none;
+		-webkit-box-shadow: -3px -6px 5px -6px rgba(34, 60, 80, 0.6) inset;
+		-moz-box-shadow: -3px -6px 5px -6px rgba(34, 60, 80, 0.6) inset;
+		box-shadow: -3px -6px 5px -6px rgba(34, 60, 80, 0.6) inset;
+		font-size: 20px;
+
+		&::placeholder {
+			font-style: italic;
+			color: #d9d9d9;
+		}
+	}
+}

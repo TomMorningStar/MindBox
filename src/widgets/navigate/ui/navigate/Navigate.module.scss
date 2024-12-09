@@ -1,0 +1,31 @@
+.nav {
+	color: #b7b7b7;
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px;
+	align-items: center;
+
+	.todoStatus {
+		width: 150px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.active {
+		border: 2px solid #ecdedd;
+	}
+
+	.clearCompleted {
+		padding: 0;
+	}
+
+	button {
+		border: none;
+		background-color: unset;
+		color: inherit;
+		cursor: pointer;
+		padding: 4px 7px;
+		border-radius: 5px;
+	}
+}
