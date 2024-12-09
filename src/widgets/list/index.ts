@@ -1,1 +1,1 @@
-export { List } from './ui/TodoListWrapperWrapper'
+export { TodoListWrapper } from './ui/todoListWrapper/TodoListWrapper'
